@@ -2,6 +2,6 @@
 
 python3 fcc111.py > data.fcc111
 
-mpirun -np 12 ../lmp < in.1000
+mpirun -np 12 lmp < in.1000
 
 remark: this calculation needs lammps kspace package
